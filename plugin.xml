@@ -29,6 +29,7 @@
       <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
       <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+      <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG" android:protectionLevel="signature|privileged" />
     </config-file>
 
     <source-file src="src/dk/kapetanovic/wifimanager/WifiManagerPlugin.java" target-dir="src/dk/kapetanovic/wifimanager" />
